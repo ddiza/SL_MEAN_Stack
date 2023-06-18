@@ -1,0 +1,62 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Tables</title>
+</head>
+<body>
+    <h1>Demo 12</h1>
+    <!-- ID  NAME    AGE     SALARY      DESIG<br>
+
+    100 RAJU    24      50000       Clerk<br>
+    200 ABI     45      80000       Manager<br>
+ -->
+    <table border="1" cellpadding="10"><!-- cellspacing="10" -->
+
+        <tr>
+            <th>ID</th>        
+            <th colspan="2">FULL NAME</th>
+            <!-- <th>LAST NAME</th> -->
+            <th>AGE</th>
+            <th>SALARY</th>
+            <th>DESIG</th>
+        </tr>
+
+        <tr>
+            <td>100</td>
+            <td>THANESH</td>
+            <td>KUMAR</td>
+            <td>35</td>
+            <td>50000</td>
+            <td>Developer</td>            
+        </tr>
+        <tr>
+            <td>200</td>
+            <td>ABI</td>
+            <td>KUMAR</td>
+            <td>55</td>
+            <td>80000</td>
+            <td>Manager</td>            
+        </tr>
+    <!--Let's merge the two remaining tester positions under DESIG-->
+        <tr>
+            <td>300</td>
+            <td>Chandu</td>
+            <td>KUMAR</td>
+            <td>25</td>
+            <td>30000</td>
+            <td rowspan="2">Tester</td>            
+        </tr>
+        <tr>
+            <td>400</td>
+            <td>Pravin</td>
+            <td>KUMAR</td>
+            <td>35</td>
+            <td>40000</td>
+            <tdrowspan="2"></td>>Tester</td>            
+        </tr>
+        
+    </table>
+
+</body>
+</html>
